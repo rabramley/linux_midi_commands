@@ -49,12 +49,9 @@ A simple example of how to run:
 
     ./ametro  -M -t 50 -o 14:0
 
--M
-: Set this program as the master clock
--t 50
-: Set the tempo to 50 beats per minute
--o 14:0
-: Set the output midi port to 14:0 (the midi through port and hence the BSII and UX16)
+* `-M` : Set this program as the master clock
+* `-t 50` : Set the tempo to 50 beats per minute
+* `-o 14:0` : Set the output midi port to 14:0 (the midi through port and hence the BSII and UX16)
 
 For a full list of command line arguments use:
 
